@@ -1,8 +1,10 @@
-package org.devk.blogger.users;
+package org.devk.blogger.controllers;
 
 import java.util.List;
 
-import org.devk.blogger.blogs.Blog;
+import org.devk.blogger.models.Blog;
+import org.devk.blogger.models.User;
+import org.devk.blogger.repos.UsersDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,4 +1,4 @@
-package org.devk.blogger.blogs;
+package org.devk.blogger.repos;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.devk.blogger.exceptions.InvalidBlogException;
 import org.devk.blogger.exceptions.UnAuthorisedActionException;
 import org.devk.blogger.exceptions.UserNotFoundException;
-import org.devk.blogger.users.User;
-import org.devk.blogger.users.UserRepo;
+import org.devk.blogger.models.Blog;
+import org.devk.blogger.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 /**

@@ -1,8 +1,8 @@
 package org.devk.blogger.auth.config;
 
 import org.devk.blogger.exceptions.UserNotFoundException;
-import org.devk.blogger.users.User;
-import org.devk.blogger.users.UserRepo;
+import org.devk.blogger.models.User;
+import org.devk.blogger.repos.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

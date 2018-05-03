@@ -1,7 +1,8 @@
-package org.devk.blogger.comments;
+package org.devk.blogger.repos;
 
 import java.util.List;
 
+import org.devk.blogger.models.Comment;
 import org.springframework.data.mongodb.repository.MongoRepository;
 /**
  * 

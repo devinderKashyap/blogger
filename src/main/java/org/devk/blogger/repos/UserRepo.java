@@ -1,5 +1,6 @@
-package org.devk.blogger.users;
+package org.devk.blogger.repos;
 
+import org.devk.blogger.models.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 /**
  * 

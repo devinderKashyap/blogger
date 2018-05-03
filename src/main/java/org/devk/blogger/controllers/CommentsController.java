@@ -1,7 +1,9 @@
-package org.devk.blogger.comments;
+package org.devk.blogger.controllers;
 
 import java.util.List;
 
+import org.devk.blogger.models.Comment;
+import org.devk.blogger.repos.CommentsDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PathVariable;
